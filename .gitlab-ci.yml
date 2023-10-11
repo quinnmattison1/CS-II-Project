@@ -1,0 +1,86 @@
+stages:
+
+  - test
+# milestone: pass at least two tests for one of the problems
+test-QueryTest1:
+
+  stage: test
+
+  script:
+    - mkdir target
+    - javac -d target -cp target:junit-platform-console-standalone-1.9.2.jar -cp commons-csv-1.8.jar:junit-4.12.jar src/*.java test/*.java
+    - java -jar junit-platform-console-standalone-1.9.2.jar  --classpath target -cp commons-csv-1.8.jar --select-class QueryTest1
+
+test-QueryTest2:
+
+  stage: test
+
+  script:
+    - javac -d target -cp target:junit-platform-console-standalone-1.9.2.jar -cp commons-csv-1.8.jar:junit-4.12.jar src/*.java test/*.java
+    - java -jar junit-platform-console-standalone-1.9.2.jar  --classpath target -cp commons-csv-1.8.jar --select-class QueryTest2
+
+test-QueryTest3:
+
+  stage: test
+
+  script:
+    - javac -d target -cp target:junit-platform-console-standalone-1.9.2.jar -cp commons-csv-1.8.jar:junit-4.12.jar src/*.java test/*.java
+    - java -jar junit-platform-console-standalone-1.9.2.jar  --classpath target -cp commons-csv-1.8.jar --select-class QueryTest3
+
+test-QueryTest4:
+
+  stage: test
+
+  script:
+    - javac -d target -cp target:junit-platform-console-standalone-1.9.2.jar -cp commons-csv-1.8.jar:junit-4.12.jar src/*.java test/*.java
+    - java -jar junit-platform-console-standalone-1.9.2.jar  --classpath target -cp commons-csv-1.8.jar --select-class QueryTest4
+
+test-QueryTest5:
+
+  stage: test
+
+  script:
+    - javac -d target -cp target:junit-platform-console-standalone-1.9.2.jar -cp commons-csv-1.8.jar:junit-4.12.jar src/*.java test/*.java
+    - java -jar junit-platform-console-standalone-1.9.2.jar  --classpath target -cp commons-csv-1.8.jar --select-class QueryTest5
+
+test-QueryTest6:
+
+  stage: test
+
+  script:
+    - javac -d target -cp target:junit-platform-console-standalone-1.9.2.jar -cp commons-csv-1.8.jar:junit-4.12.jar src/*.java test/*.java
+    - java -jar junit-platform-console-standalone-1.9.2.jar  --classpath target -cp commons-csv-1.8.jar --select-class QueryTest6
+
+test-QueryTest7:
+
+  stage: test
+
+  script:
+    - javac -d target -cp target:junit-platform-console-standalone-1.9.2.jar -cp commons-csv-1.8.jar:junit-4.12.jar src/*.java test/*.java
+    - java -jar junit-platform-console-standalone-1.9.2.jar  --classpath target -cp commons-csv-1.8.jar --select-class QueryTest7
+
+test-QueryTest8:
+
+  stage: test
+
+  script:
+    - javac -d target -cp target:junit-platform-console-standalone-1.9.2.jar -cp commons-csv-1.8.jar:junit-4.12.jar src/*.java test/*.java
+    - java -jar junit-platform-console-standalone-1.9.2.jar  --classpath target -cp commons-csv-1.8.jar --select-class QueryTest8
+
+test-QueryTest9:
+
+  stage: test
+
+  script:
+    - javac -d target -cp target:junit-platform-console-standalone-1.9.2.jar -cp commons-csv-1.8.jar:junit-4.12.jar src/*.java test/*.java
+    - java -jar junit-platform-console-standalone-1.9.2.jar  --classpath target -cp commons-csv-1.8.jar --select-class QueryTest9
+
+test-QueryTest10:
+
+  stage: test
+
+  script:
+    - javac -d target -cp target:junit-platform-console-standalone-1.9.2.jar -cp commons-csv-1.8.jar:junit-4.12.jar src/*.java test/*.java
+    - java -jar junit-platform-console-standalone-1.9.2.jar  --classpath target -cp commons-csv-1.8.jar --select-class QueryTest10
+
+
