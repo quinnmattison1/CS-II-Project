@@ -1,6 +1,6 @@
 # CS-II-Project
  
-I was tasked to complete a set of queries for a homework assignment in my Data Structures course. The goal of this asisngment was to gain experience in using sets and maps to efficiently answer queries on a large dataset.
+I was tasked to complete a set of queries for a project in my Data Structures course. The goal of this asisngment was to gain experience in using sets and maps to efficiently answer queries on a large dataset.
 
 **About the Assignment**
 
